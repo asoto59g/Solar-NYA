@@ -1,0 +1,28 @@
+# Visor Web - Parque Solar NYA Abril 2026
+
+Este es un visor web interactivo generado para visualizar el proyecto del **Parque Solar NYA**, junto con un análisis de imágenes satelitales correspondientes a abril de 2026.
+
+## Capas Disponibles
+
+El visor cuenta con las siguientes capas de información que pueden ser activadas o desactivadas desde el control de capas (esquina superior derecha):
+
+### 1. Capas Base y Vectoriales
+- **Google Hybrid**: Imagen de satélite base de Google con etiquetas y caminos. Activa por defecto.
+- **Parque Solar**: Polígono vectorial que delimita el área del proyecto del Parque Solar NYA. Incluye información de área en hectáreas (`AreaHa`). Activa por defecto.
+  - **Alineación Estratégica**: El diseño del proyecto contempla una alineación de calles en sentido **Este-Oeste**. Esta configuración es fundamental para optimizar la captación de energía solar y maximizar el aprovechamiento del recurso durante el recorrido diario del sol.
+
+### 2. Capas Satelitales (Sentinel-2)
+Se incluye un conjunto de imágenes e índices derivados de la misión **Sentinel-2 (Nivel 2A)**, correspondientes al **17 de Abril de 2026**. Estas capas permiten evaluar diferentes características del terreno y la vegetación. Todas estas capas se encuentran agrupadas y están apagadas por defecto.
+
+- **True color (Color Verdadero)**: Representación visual del terreno tal como lo percibe el ojo humano (Bandas RGB).
+- **False color (Falso Color)**: Composición infrarroja que resalta fuertemente la vegetación sana en tonos rojos brillantes.
+- **False color urban (Falso Color Urbano)**: Composición diseñada para resaltar zonas urbanas o de infraestructura, facilitando la distinción de caminos y construcciones.
+- **NDVI (Índice de Vegetación de Diferencia Normalizada)**: Mide el vigor y la densidad de la vegetación. Valores altos (verde oscuro) indican vegetación densa y sana.
+- **NDWI (Índice de Diferencia Normalizada de Agua)**: Utilizado para delinear cuerpos de agua abiertos y evaluar la humedad de la vegetación.
+- **Moisture index (Índice de Humedad)**: Ayuda a identificar el contenido de humedad en la vegetación y los suelos.
+- **SWIR (Infrarrojo de Onda Corta)**: Combinación de bandas útiles para discriminar humedad en el suelo, diferentes tipos de rocas y estrés en la vegetación.
+
+## Uso del Visor
+- **Navegación**: Utilice el ratón o pantalla táctil para desplazarse (arrastrar) y acercar/alejar (rueda del ratón o pellizcar).
+- **Consultar Información**: Haga clic sobre el polígono del Parque Solar para ver su información en una ventana emergente.
+- **Control de Capas**: Use el botón de capas en la esquina superior derecha para encender y apagar las capas satelitales según lo requiera su análisis.
