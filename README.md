@@ -2,8 +2,6 @@
 
 Este es un visor web interactivo generado para visualizar el proyecto del **Parque Solar NYA**, junto con un análisis de imágenes satelitales correspondientes a abril de 2026.
 
-Dar clic en siguiente link para ir al visor:  https://asoto59g.github.io/Solar-NYA/
-
 ## Capas Disponibles
 
 El visor cuenta con las siguientes capas de información que pueden ser activadas o desactivadas desde el control de capas (esquina superior derecha):
@@ -28,3 +26,8 @@ Se incluye un conjunto de imágenes e índices derivados de la misión **Sentine
 - **Navegación**: Utilice el ratón o pantalla táctil para desplazarse (arrastrar) y acercar/alejar (rueda del ratón o pellizcar).
 - **Consultar Información**: Haga clic sobre el polígono del Parque Solar para ver su información en una ventana emergente.
 - **Control de Capas**: Use el botón de capas en la esquina superior derecha para encender y apagar las capas satelitales según lo requiera su análisis.
+
+## Visualización en Dispositivos Móviles
+El visor ha sido optimizado para cargar en **"Vista de Escritorio"** en teléfonos y tablets. Esto asegura que todos los botones y controles mantengan una disposición adecuada y no se superpongan. 
+- Si los botones se ven muy pequeños, puede utilizar el gesto de **pellizcar para hacer zoom** (zoom del navegador) para ampliar la zona de los controles y manipularlos con mayor facilidad.
+- Se recomienda utilizar el dispositivo en modo **horizontal (landscape)** para una mejor experiencia de visualización del mapa.
