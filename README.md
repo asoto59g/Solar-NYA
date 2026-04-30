@@ -2,6 +2,8 @@
 
 Este es un visor web interactivo generado para visualizar el proyecto del **Parque Solar NYA**, junto con un análisis de imágenes satelitales correspondientes a abril de 2026.
 
+Para ir al visor dar clic al siguiente link:  https://asoto59g.github.io/Solar-NYA/
+
 ## Capas Disponibles
 
 El visor cuenta con las siguientes capas de información que pueden ser activadas o desactivadas desde el control de capas (esquina superior derecha):
