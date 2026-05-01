@@ -1,8 +1,27 @@
-# Visor Web - Parque Solar NYA Abril 2026
+# Visor Web - "NUMU" – Parque Solar NYA Abril 2026
 
 Este es un visor web interactivo generado para visualizar el proyecto del **Parque Solar NYA**, junto con un análisis de imágenes satelitales correspondientes a abril de 2026.
 
 Para ir al visor dar clic al siguiente link:  https://asoto59g.github.io/Solar-NYA/
+
+---
+## Detalles del proyecto
+
+Este proyecto fotovoltaico, denominado **"NUMU"**, aportará energía limpia y sostenible a la región.
+
+### Resumen del proyecto
+
+| Característica | Detalle |
+|---|---|
+| ☀️ **Capacidad** | **29.2 MW** |
+| 📄 **Contrato con ICE** | **20 años** |
+| 🌧️ **Pico de producción** | **Coincide con el período de menor lluvias**, complementando la generación hídrica. |
+
+
+## Esta situación es única en Costa Rica como se aprecia en los mapas adjuntos; en el siguiente vinculo se puede manipular 14 mapas de Guanacaste mostrando el potencial con promedios anuales, diarios, mensuales y las áreas de cada zona. (Manipular pestañas superior derecha, y dar clic sobre mapa para ver valores en tablas)
+
+El gobierno debe adecuar leyes para favorecer la explotación de esta riqueza por la mayoría de las personas. 
+---
 
 ## Capas Disponibles
 
@@ -29,6 +48,12 @@ Se incluye un conjunto de imágenes e índices derivados de la misión **Sentine
 - **Consultar Información**: Haga clic sobre el polígono del Parque Solar para ver su información en una ventana emergente.
 - **Control de Capas**: Use el botón de capas en la esquina superior derecha para encender y apagar las capas satelitales según lo requiera su análisis.
 
+  ![MAPA ORIGINAL](https://github.com/abcgeomatica/Mapas_Solares_Guanacaste/blob/master/Costa-Rica_PVOUT_mid-size-map_lang-ES_156x191mm-300dpi_v20200519.png))
+
+![Mapa Guanacaste](https://github.com/abcgeomatica/Mapas_Solares_Guanacaste/blob/master/Mapa%20Solar%20Guanacaste.jpg)
+
+MAPA INTERACTIVO
+(https://abcgeomatica.github.io/Mapas_Solares_Guanacaste/)
 ## Visualización en Dispositivos Móviles
 El visor ha sido optimizado para cargar en **"Vista de Escritorio"** en teléfonos y tablets. Esto asegura que todos los botones y controles mantengan una disposición adecuada y no se superpongan. 
 - Si los botones se ven muy pequeños, puede utilizar el gesto de **pellizcar para hacer zoom** (zoom del navegador) para ampliar la zona de los controles y manipularlos con mayor facilidad.
