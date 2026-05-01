@@ -148,6 +148,18 @@
                     updateCustomScale();
                 }
             }, 1000);
+
+            // Reposicionar el layer switcher debajo del título en todos los dispositivos
+            setTimeout(function() {
+                var ls = document.querySelector('.layer-switcher');
+                if (ls) {
+                    var mapDiv = document.getElementById('map');
+                    // Moverlo directamente al #map para que position:absolute sea relativo al mapa
+                    mapDiv.appendChild(ls);
+                    // Forzar estilo inline (sobreescribe cualquier CSS del navegador)
+                    ls.style.cssText = 'position:absolute !important; top:90px !important; right:8px !important; bottom:auto !important; float:none !important; margin:0 !important; padding:3px; background-color:rgba(255,255,255,0.4); z-index:1000;';
+                }
+            }, 800);
         </script>
     </body>
 </html>
